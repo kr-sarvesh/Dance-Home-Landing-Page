@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+}
+
+/*----------> Left section starts from here */
+
+#left-section {
+  float: left;
+  width: 35vw;
+  height: 100vh;
+}
+
+#left-section {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.main-img {
+  width: 100%;
+  height: 100vh;
+}
+#left-section .logo {
+  width: 100px;
+  position: absolute;
+  top: 60px;
+  left: 70px;
+}
+
+/* Left section ends here */
+
+/*---------------> Right section starts from here */
+
+#right-section {
+  padding-left: 600px;
+  padding-right: 50px;
+  padding-top: 20px;
+}
+#right-section .lists {
+  display: flex;
+  list-style-type: none;
+  justify-content: flex-end;
+  margin-bottom: 50px;
+}
+#right-section .lists .list-items {
+  margin-left: 50px;
+  width: 80px;
+  color: black;
+  opacity: 0.9;
+  text-align: center;
+  cursor: pointer;
+}
+#right-section .lists .list-items:hover {
+  cursor: pointer;
+  font-weight: 600;
+}
+.line1 {
+  width: 400px;
+  height: 1px;
+  background-color: #000;
+  position: relative;
+  top: 11px;
+}
+.hero .hero-heading {
+  display: flex;
+  justify-content: space-between;
+  height: 200px;
+  position: relative;
+  top: -30px;
+}
+.crea {
+  font-size: 80px;
+  font-weight: 800;
+  color: #f5f2f0;
+  -webkit-text-stroke: 1px #000;
+}
+
+.hero .hero-heading .crea .tivity {
+  margin-left: 100px;
+  color: #333;
+  margin-right: 20px;
+}
+
+.hero .hero-heading .small-heading {
+  padding-top: 140px;
+  position: relative;
+  right: 160px;
+  font-size: 30px;
+  opacity: 0.6;
+}
+
+.media-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.packages-btn {
+  float: right;
+  margin-top: -20px;
+  border-radius: 2px;
+  width: 250px;
+  height: 50px;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #353634;
+}
+
+.packages-btn:hover {
+  background-color: white;
+  color: #353634;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Featured section starts from here----------> */
+
+.left {
+  float: left;
+  margin-left: 3%;
+}
+
+.active-content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.circle-active {
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  background: #000;
+}
+
+.active {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0%;
+  margin-left: 20px;
+}
+.left {
+  padding-top: 50px;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.content h3 {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0%;
+  margin-left: 20px;
+  color: #828282;
+}
+
+.circle-line {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+.circle {
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  background: #828282;
+}
+
+.line2 {
+  height: 40px;
+  width: 1px;
+  background-color: #828282;
+}
+
+.right {
+  margin-left: 12%;
+}
+.features {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.apostrophy img {
+  width: 50px;
+  height: 40px;
+}
+.right p {
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: #493736;
+}
+.dance-img {
+  width: 390px;
+}
+
+.line3 {
+  position: relative;
+  top: 150px;
+  width: 1px;
+  height: 100px;
+  background: #000;
+}
+.point {
+  position: relative;
+  height: 20px;
+  width: 20px;
+  border-style: solid;
+  border-color: #000;
+  border-width: 0px 2px 2px 0px;
+  transform: rotate(45deg);
+  right: 10px;
+  top: 125px;
+}
