@@ -254,18 +254,15 @@ nav .lists {
     display: none;
   }
   nav ul {
-    border: 1px solid black;
     margin-left: 5.5rem;
     margin-bottom: 1rem;
   }
   .hero {
     display: flex;
-    border: 1px solid red;
     width: 600px;
     margin-left: 100px;
   }
   .features {
-    border: 1px solid red;
     margin-left: 100px;
   }
   .packages-btn {
@@ -300,5 +297,3 @@ nav .lists {
     margin-left: 18rem;
   }
 }
-
-/* ========== For================ */
